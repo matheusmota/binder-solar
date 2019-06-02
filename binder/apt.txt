@@ -1,7 +1,5 @@
-htop
-vim
 curl
+zip
 lsof
 wget
-nodejs
 openjdk-8-jdk
