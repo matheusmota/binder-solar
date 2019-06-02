@@ -2,7 +2,6 @@ htop
 vim
 curl
 lsof
-netstat
 wget
 nodejs
 openjdk-8-jdk
