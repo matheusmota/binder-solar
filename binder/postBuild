@@ -1,6 +1,7 @@
 #!/bin/bash
 wget  http://ftp.unicamp.br/pub/apache/lucene/solr/8.1.1/solr-8.1.1.zip
 unzip solr-8.1.1.zip
+./solr-8.1.1/bin/install_solr_service.sh solr-8.1.1.zip
 
 sudo service solr stop
 sudo service solr start
