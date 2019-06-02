@@ -1,5 +1,5 @@
-# binder-slar
-Example repository for using Solr in Binder/jupyter enviroments.
+# binder-solr
+Example repository for using [Solr]() in Binder/jupyter enviroments.
 
 See [this repositository]() for examples on how to add Solr on your own Docker image
 
