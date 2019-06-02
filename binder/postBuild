@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# solr
 wget  http://ftp.unicamp.br/pub/apache/lucene/solr/8.1.1/solr-8.1.1.zip
 unzip solr-8.1.1.zip && rm solr-8.1.1.zip
 ./solr-8.1.1/bin/solr start -c
+
+# Allowing iframes inside JupyterLab https://github.com/timkpaine/jupyterlab_iframe
+jupyter labextension install jupyterlab_iframe
+jupyter serverextension enable --py jupyterlab_iframe
